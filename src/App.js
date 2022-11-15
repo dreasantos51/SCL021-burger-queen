@@ -1,17 +1,22 @@
-import Button from "./components/Button.js";
+import React from "react";
 import "./App.css";
-import Button2 from "./components/Button2.js";
-
+import BtnPedidos from "./components/BtnPedidos.js";
+import BtnCocina from "./components/BtnCocina.js";
+import logoimg from "./IMG/logo.png";
+import {Routes, Route} from "react-router-dom"
+import Home from "./views/Home";
+import Orders from "./views/Orders";
+import Pedidos from "./views/Pedidos";
 
 function App() {
+
   return (
-   <div className="container">
-   <h1 className="title">
-      👑 Burger Queen <span aria-label="emoji" role="img">🍔</span>
-   </h1>
-      <Button>Pedidos</Button>
-      <Button2>Cocina</Button2>
-</div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/Orders" element={<Orders />} />
+      <Route path ="/Pedidos" element ={<Pedidos/>}/ >
+</Routes>
+
   );
 }
 
