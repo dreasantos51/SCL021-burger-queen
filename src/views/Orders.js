@@ -2,7 +2,7 @@ import React from 'react'
 
 const Orders = () => {
   return (
-    <div>Orders</div>
+    <a href="http://localhost:3000/">Orders</a>
   )
 }
 

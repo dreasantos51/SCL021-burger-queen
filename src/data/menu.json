@@ -1,0 +1,57 @@
+
+{
+  "desayuno": [
+    {
+      "item": "Americano",
+      "price": 500
+    },
+    {
+      "item": "Cafe con Leche",
+      "price": 700
+    },
+    {
+      "item": "Jugo Natural",
+      "price": 700
+    },
+    {
+      "item": "Sándwich jamón/queso",
+      "price": 700
+    },
+    {
+      "item": "Bebida 500ml",
+      "price": 500
+    },
+    {
+      "item": "Agua mineral 500ml",
+      "price": 200
+    }
+  ],
+  "Almuerzo": [
+    {
+      "item": "Hamburguesa simple",
+      "price": 1500
+    },
+    {
+      "item": "Hamburguesa doble",
+      "price": 3000
+    },
+    {
+      "item": "Bebida 500ml",
+      "price": 500
+    },
+    {
+      "item": "Agua mineral 500ml",
+      "price": 200
+    }
+  ],
+  "Acompañamientos": [
+    {
+      "item": "Papas fritas",
+      "price": 1500
+    },
+    {
+      "item": "Aros de cebolla",
+      "price": 1500
+    }
+  ]
+}

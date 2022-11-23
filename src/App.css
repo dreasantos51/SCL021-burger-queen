@@ -1,4 +1,5 @@
-.container {
+/* estilos Home */
+.home-container {
   width: 800px;
   margin: 0 auto;
   display: flex;
@@ -7,17 +8,75 @@
   position: relative;
 }
 
-
 .btn-principal {
   display: flex;
   width: 100%;
-  
   justify-content: space-around;
   position: absolute;
   bottom: 0;
   left:0;
-
 }
 
 
+
+/* estilos NavBAR */
+.container {
+  display: grid;
+  background-color: #6bac9e;
+  grid-template-areas:
+  "navBar navBar"
+  "section aside";
+  grid-template-columns:1fr 3fr;
+
+
+  }
+
+ .nav-container {
+  max-height: 20vh;
+
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.image-logo {
+  height: 93px;
+  width: 208px;
+  left: -13px;
+  top: 5.9999847412109375px;
+  border-radius: 0px;
+}
+
+.nav-menu{
+  width: 100px;
+  height: 90px;
+  text-align: center;
+  background-color: grey;
+
+}
+.nav-cocina {
+   width: 100px;
+   height: 90px;
+  text-align: center;
+  background-color: grey;
+
+}
+
+a{
+  color:  black;
+  text-decoration: none;
+  text-transform:uppercase
+}
+.main-nav .home {
+  position: relative;
+  cursor: pointer;
+}
+.main-nav .home box-icon {
+  width: 45px;
+  height: 45px;
+
+}
 
